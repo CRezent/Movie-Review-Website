@@ -1,0 +1,57 @@
+<%- include ('../partials/header') %>
+<!-- include other stylesheet -->
+<link rel="stylesheet" href="/style/login.css">
+<% if (bg.default) { %>
+  <style>
+   body {
+     background-image: url('<%= bg.url %>');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+ </style>
+ <% }else{ %>
+   <style>
+   body {
+     background-image: url('data:image/png;base64,<%= bg.base64 %>');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+ </style>
+ <% } %>
+<main>
+  <div class="loginWrapper">
+        <!-- Start of Registration Form -->
+        <h1>Register</h1>
+        <% if(typeof error != 'undefined')  { %>
+          <div class="alert alert-danger" role="alert">
+              <%= error %>. <a href="/login">Login here.</a>
+          </div>
+        <% } %>
+        <form action="/register" method="POST">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <p>Already have an account? <a href="/login">Login</a></p>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+          </div>
+        </form>
+        <!-- End of Registration Form -->
+  </div>
+    <!-- image credit, along with a link to their unsplash profile -->
+    <div class="authorCredit">Image credit: <a href="<%= bg.link %>" target="_blank"><%= bg.name %></a>. Images sourced from <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</div>
+</main>
+
+<%- include ('../partials/footer') %>

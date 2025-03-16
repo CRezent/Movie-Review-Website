@@ -28,32 +28,36 @@ Week of 11/13 Team Meeting for Project
 -Everyone planned on attending recitation on friday, extra credit would be very useful and it would be another good chance to get work done so we have the project done in time for the extra credit.
 -Added assignees to all of the project board stories and such, everything now assigned.
 
-Scribe:Caleb
+Week of 11/27 Team Meeting for project
 
-Week of 11/6 Team Meeting for Project
+-Mitch redid login and register page over break
+-Also created movies page, worked on that with ethan
+-Look to what to do the next weeks
+-We need to be able to add reviews to database of home page
+-A few more bugs that need to be fixed along the way
+-Work out what we need for the presentation, is the use case diagram done? Yes we confirmed that it is done
+-Get the project done by Thursday for the 5 percent extra credit.
+-Talked about the presentation slot, 9am recitation next friday. Make sure we all show up to the recitations.
+-Break down the review backend work to get it done by Thursday, who can get it done by thursday. Ian can work on it, gonna work on it on tuesday.
+-Issue with login? Current;y there is an issue with it so Mitch had to temporarily change it.
+-Ian added a login and logout button in the header so one can log out anywhere. Ian wants to add a variable so it can be only one button at a time, so it either says login or logout depending on one's current status.
+-Mitch made quite a few changes with the UI over the break. Different backgrounds depending on refresh, all related to movies.Could be a movie theater background reels, etc. Made the main page blue, got rid of description to make it look more clean, made borders better, added details page, details page pulls form the movie database in order to create the page. Added some temporary reviews.
+-Another to do for the week would be work on the powerpoint for the week. Ethan and Caleb can work on it.
+-Maybe we should add some of our own reviews this week in order to make it look better for presentation. Just add reviews for one movie for a demo, don’t do that menu. We could also do a demo of the review system during the presentation.
+-We need to reorganize all of our files for this week to make sure it's ready to submit on thursday, add a review needs to be working by thursday 100%.
 
--Figured out communication, set up group chat and discord, currently meeting on discord.
--Overview of general structure and ideas of project. Thought of multiple ideas for a project, landed on a movie review website. Thought of basic functionality
--Figured out version control, made app name: #criticism, came up with a base app description and how it would function in the most basic way possible.
--Create the vision statement for the project
--Worked on building directory, added docker files, .env, json files, gitignore, readme, etc.
--Built use case diagram 
--Built wireframe for 4 pages, view movie, home page, register page, login page
--Made project board for different pages and sections of code
--Began basic ideas of finding out who is good at what. For example Mitch and Ian are better at backend, Ethan and Caleb are better at frontend.
--By the end of the meeting we verified that we had all of the files for lab 10 and went over the rubric for the week, and began planning for the next week.
+Week of 12/4 Team Meeting for Project
+
+-Finishing everything this week
+-Meet in person to practice presentation, meet at 12 pm on Thursday, try and reserve a room in case building or else meet at engineering center.
+-Video demo, Ethan can do it easily
+-Finish project report for next tuesday, add contribution etc, don't worry about not having it done by friday
+-Finish representation before our in person meetup on thursday, try and find ways to make sure the entire presentation  reaches 10 minutes. 
+-All coding is done, nothing left to do, polishing done
+-What to do for the video of the website, mp4, youtube video unlisted, Ethan will figure it out.
+-Change presentation for less text, and more bullets points and images
+-Who talks on which slides and how we are going to get it to be around 10 minutes. 
+-How we will set up demo and who will do that, what should we show on the website in order to be concise but also going into detail
+-Make sure everyone added their contribution to project report soon
 
 
-Week of 11/13 Team Meeting for Project
-
--Assignments of work for the week: Caleb: Scribe for meetings, partials and bootstrap on register page, login page, bootstrap form for reg page and home page search bar, create basic html table for list of movies on homepage  Ethan: Home page and view page frontend html/bootstrap code  Ian: Submitting review backend, route on index.js, etc.   Mitch: Search backend, login page testing.
--First topic reorganizing our structure of the files, moved milestone submissions to the correct folder, planned to reorganize the main project code as well.
--Overviewed lab 11, testing almost done according to Mitch, little more work to do with that lab. 
--Began assigning, Caleb and Ethan handling ejs and more front end code, figuring out what Mitch and Ian can do.
--Group wants to get this done this week, what do we need to do for this week? Mitch already added the movies last week, so the database is done. We need to also add routes in the index.js for selecting a movie. 
--Then discussed assignments backend mostly to Ian and Mitch , frontend to Caleb and Ethan
--How to handle certain front end, bootstraps forms for login and register page, just a basin table for now for the list of movies? Other basic ideas.
--How for Ian and mitch to handle routes and backend, and what are the specific things that need to be done before friday
--Planned on potential extra meetings through the week through our discord communication.
--Everyone planned on attending recitation on friday, extra credit would be very useful and it would be another good chance to get work done so we have the project done in time for the extra credit.
--Added assignees to all of the project board stories and such, everything now assigned.
