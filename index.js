@@ -244,7 +244,13 @@ app.get('/', auth, async (req, res) => {
         res.status(500).send({ message: 'Error during page render' });
     }
 
-  });
+
+/* Should this be just '/' to get to the home page route? */
+
+app.get('/home', async (req, res) => {
+    res.render('pages/home');
+});
+
 
 
 //above route rewrite to use TMDB & our database
@@ -281,6 +287,7 @@ app.get('/movie/:id', async (req, res) => {
     
             }
         }
+
 
         res.render('pages/viewDetails', { data: movieDetails, bg: bgUrl });
 
